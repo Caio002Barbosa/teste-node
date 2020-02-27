@@ -13,6 +13,6 @@ server.use(cors(corsOptions));
 
 server.post('/upload', upload);
 
-server.listen(3000, () => {
+server.listen(2666, () => {
   console.log('Server started!');
 });
