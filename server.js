@@ -13,6 +13,4 @@ server.use(cors(corsOptions));
 
 server.post('/upload', upload);
 
-server.listen(8080, () => {
-  console.log('Server started!');
-});
+server.listen(8080,'0.0.0.0');
